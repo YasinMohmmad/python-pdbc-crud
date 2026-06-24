@@ -2,7 +2,7 @@
 
 # accesing the database
 import mysql.connector as s
-con=s.connect(host="localhost",user="root",password="yasinsql007",database="college")
+con=s.connect(host="localhost",user="root",password="YOUR PASSWORD",database="college")
 cur=con.cursor()
 
 try:
